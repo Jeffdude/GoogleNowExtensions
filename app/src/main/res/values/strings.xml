@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Google Now Extensions</string>
+    <string name="intro_description">
+        Helping you stay hands-free when you need it the most.
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
