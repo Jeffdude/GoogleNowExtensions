@@ -25,6 +25,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="jeffmilling.googlenowextensions.MainActivity" />
         </activity>
+        <activity android:name=".ListenerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jeffmilling.googlenowextensions.MainActivity" />
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE"/>
+            </intent-filter>
+        </activity>
     </application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

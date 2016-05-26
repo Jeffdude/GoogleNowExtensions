@@ -18,9 +18,19 @@
 
 
         <TextView android:text="@string/intro_description"
+            android:id="@+id/main_description"
             android:layout_centerHorizontal="true"
             android:textSize="9pt"
             android:textColor="@color/gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/main_txt_output"
+            android:layout_below="@+id/main_description"
+            android:layout_centerHorizontal="true"
+            android:textSize="15pt"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
